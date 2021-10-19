@@ -98,38 +98,53 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-image: url(../img/nightmare_before_christmas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'IM Fell English SC', serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
+header {
+    font-size: 45px;
+    color: #ebd29f;
+    padding-bottom: 375px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+/* flex container */
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
+  font-weight: normal;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   display: flex;
-  color: #fff;
+  color: white;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 30%;
-  justify-content: center;
   align-items: center;
+  height: 140px;
 }
 
-
+.div-2 {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
 
 
 /* ==========================================================================
